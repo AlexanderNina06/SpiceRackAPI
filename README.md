@@ -21,7 +21,7 @@ This ASP.NET Core API serves as the backend for a restaurant management system. 
 # Technologies Used
 
 -ASP.NET Core
-
+  
 -Entity Framework Core
 
 -AutoMapper
