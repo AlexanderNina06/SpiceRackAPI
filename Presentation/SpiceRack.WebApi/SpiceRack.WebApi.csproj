@@ -19,4 +19,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.7.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\v1\" />
+  </ItemGroup>
+
 </Project>
