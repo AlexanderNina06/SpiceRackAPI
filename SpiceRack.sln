@@ -7,6 +7,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiceRack.WebApi", "Presentation\SpiceRack.WebApi\SpiceRack.WebApi.csproj", "{B38A4BFE-235F-4009-A4E9-D4BC6B21994D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{CC3A8611-1C4C-48DA-9C01-CC2ABDA0FCDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiceRack.Infrastructure.Identity", "Infrastructure\SpiceRack.Infrastructure.Identity\SpiceRack.Infrastructure.Identity.csproj", "{2638BC1C-AD79-4397-9C68-759A3E2E2661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiceRack.Infrastructure.Persistence", "Infrastructure\SpiceRack.Infrastructure.Persistence\SpiceRack.Infrastructure.Persistence.csproj", "{76952B04-32FF-4C85-AA30-9CC9922FA7E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{453109F5-6A60-47E5-9151-8E795AA4AA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiceRack.Core.Domain", "Core\SpiceRack.Core.Domain\SpiceRack.Core.Domain.csproj", "{A5DD8861-5389-48A7-A8C1-9BE57D116AAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiceRack.Core.Application", "Core\SpiceRack.Core.Application\SpiceRack.Core.Application.csproj", "{34DC4E61-C6D9-46E5-ABF2-596CE978B11F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +32,28 @@ Global
 		{B38A4BFE-235F-4009-A4E9-D4BC6B21994D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B38A4BFE-235F-4009-A4E9-D4BC6B21994D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B38A4BFE-235F-4009-A4E9-D4BC6B21994D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2638BC1C-AD79-4397-9C68-759A3E2E2661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2638BC1C-AD79-4397-9C68-759A3E2E2661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2638BC1C-AD79-4397-9C68-759A3E2E2661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2638BC1C-AD79-4397-9C68-759A3E2E2661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76952B04-32FF-4C85-AA30-9CC9922FA7E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76952B04-32FF-4C85-AA30-9CC9922FA7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76952B04-32FF-4C85-AA30-9CC9922FA7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76952B04-32FF-4C85-AA30-9CC9922FA7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5DD8861-5389-48A7-A8C1-9BE57D116AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5DD8861-5389-48A7-A8C1-9BE57D116AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5DD8861-5389-48A7-A8C1-9BE57D116AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5DD8861-5389-48A7-A8C1-9BE57D116AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DC4E61-C6D9-46E5-ABF2-596CE978B11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DC4E61-C6D9-46E5-ABF2-596CE978B11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DC4E61-C6D9-46E5-ABF2-596CE978B11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DC4E61-C6D9-46E5-ABF2-596CE978B11F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B38A4BFE-235F-4009-A4E9-D4BC6B21994D} = {03C4EC69-9DCD-4C93-82DE-8E69FE1FCF7B}
+		{2638BC1C-AD79-4397-9C68-759A3E2E2661} = {CC3A8611-1C4C-48DA-9C01-CC2ABDA0FCDD}
+		{76952B04-32FF-4C85-AA30-9CC9922FA7E2} = {CC3A8611-1C4C-48DA-9C01-CC2ABDA0FCDD}
+		{A5DD8861-5389-48A7-A8C1-9BE57D116AAA} = {453109F5-6A60-47E5-9151-8E795AA4AA86}
+		{34DC4E61-C6D9-46E5-ABF2-596CE978B11F} = {453109F5-6A60-47E5-9151-8E795AA4AA86}
 	EndGlobalSection
 EndGlobal

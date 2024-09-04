@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DotNetEnv" Version="3.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.6" />
@@ -16,11 +17,15 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.7.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.7.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.7.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\v1\" />
+    <ProjectReference Include="..\..\Core\SpiceRack.Core.Application\SpiceRack.Core.Application.csproj" />
+    <ProjectReference Include="..\..\Core\SpiceRack.Core.Domain\SpiceRack.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\SpiceRack.Infrastructure.Identity\SpiceRack.Infrastructure.Identity.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\SpiceRack.Infrastructure.Persistence\SpiceRack.Infrastructure.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
