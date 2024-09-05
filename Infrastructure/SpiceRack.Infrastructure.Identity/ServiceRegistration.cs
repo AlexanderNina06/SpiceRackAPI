@@ -21,7 +21,7 @@ namespace SpiceRack.Infrastructure.Identity;
 
 public static class ServiceRegistration
 {
-public static async Task AddIdentityInfrastructureForApi(this IServiceCollection services,IConfiguration configuration)
+public static void AddIdentityInfrastructureForApi(this IServiceCollection services,IConfiguration configuration)
 {
 
     ContextConfiguration(services,configuration);
