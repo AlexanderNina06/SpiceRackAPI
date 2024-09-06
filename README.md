@@ -16,6 +16,10 @@ This ASP.NET Core API serves as the backend for a restaurant management system. 
 
 -Generic Repositories and Services: Promotes code reusability and maintainability.
 
+-Swagger Documentation: The API is documented with Swagger for easy exploration and usage.
+
+-Error Handling Middleware: A centralized middleware is implemented for handling and capturing exceptions.
+
 -Comprehensive Validation: View models are used for input validation.
 
 # Technologies Used
@@ -31,3 +35,5 @@ This ASP.NET Core API serves as the backend for a restaurant management system. 
 -Identity
 
 -Onion Architecture
+
+-Swagger UI
