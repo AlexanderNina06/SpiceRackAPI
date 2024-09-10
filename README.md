@@ -4,36 +4,36 @@ This ASP.NET Core API serves as the backend for a restaurant management system. 
 
 # Key Features
 
--Secure User Management: JWT authentication and Identity framework ensure secure user access and authorization.
+* **Secure User Management**: JWT authentication and Identity framework ensure secure user access and authorization.
 
--Role-based Access Control: Supports multiple roles (administrators and waiters) with granular permissions.
+* **Role-based Access Control**: Supports multiple roles (administrators and waiters) with granular permissions.
 
--Onion Architecture: Well-defined layers for domain, application, and infrastructure concerns.
+* **Onion Architecture**: Well-defined layers for domain, application, and infrastructure concerns.
 
--Entity Framework Core: Data persistence using code-first migrations.
+* **Entity Framework Core**: Data persistence using code-first migrations.
 
--AutoMapper: Efficient object-object mapping between view models, entities, and DTOs.
+* **AutoMapper**: Efficient object-object mapping between view models, entities, and DTOs.
 
--Generic Repositories and Services: Promotes code reusability and maintainability.
+* **Generic Repositories and Services**: Promotes code reusability and maintainability.
 
--Swagger Documentation: The API is documented with Swagger for easy exploration and usage.
+* **Swagger Documentation**: The API is documented with Swagger for easy exploration and usage.
 
--Error Handling Middleware: A centralized middleware is implemented for handling and capturing exceptions.
+* **Error Handling Middleware**: A centralized middleware is implemented for handling and capturing exceptions.
 
--Comprehensive Validation: View models are used for input validation.
+* **Comprehensive Validation**: View models are used for input validation.
 
 # Technologies Used
 
--ASP.NET Core
+* ASP.NET Core
   
--Entity Framework Core
+* Entity Framework Core
 
--AutoMapper
+* AutoMapper
 
--JWT
+* JWT
 
--Identity
+* Identity
 
--Onion Architecture
+* Onion Architecture
 
--Swagger UI
+* Swagger UI
