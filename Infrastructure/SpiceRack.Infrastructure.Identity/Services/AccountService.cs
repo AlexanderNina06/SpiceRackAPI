@@ -140,6 +140,13 @@ public class AccountService : IAccountService
         return response;
       }
 
+      if (!ValidatePassword(request.Password))
+      {
+        response.HasError = true;
+        response.Error = "Password must contain at least 8 characters, one uppercase letter, one lowercase letter, a number, and a special character.";
+        return response;
+      }
+
       var user = new ApplicationUser
       {
         Email = request.Email,
